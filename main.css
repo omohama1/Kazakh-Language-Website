@@ -1,0 +1,176 @@
+body{
+	font-family:  "Trebuchet MS", sans-serif; 
+	position: relative;
+}
+div#outerDiv{
+	width: 900px;
+	height: 2000px;
+	margin: 0 auto;
+	font-family:  "Trebuchet MS", sans-serif; 
+	position:relative;
+}
+#mainContent h3{
+	clear:both;
+}
+h1 #top{
+	text-align: left;
+	font-size: 1.5em;
+	font-style: italic;
+	position: absolute;
+}
+h2{
+	font-size: 1.75em;
+}
+div#mainContent{
+	float:left;
+	width: 605px;
+	margin: 0;
+padding: 0 10px 20px 10px;
+	background-color: #efefef;
+	font-family:  "Trebuchet MS", sans-serif; 
+	position:relative;
+	
+}
+ div#banner{
+	text-align: center;
+	background-color: turquoise;
+	margin-top: -20px;
+	margin-left: -10px;
+	padding-left: 5px;
+	border-radius: 5px;
+	width: 620px;
+	float:left;
+	font-family:  "Trebuchet MS", sans-serif; 
+	position:absolute;
+}
+div #mainContent div{
+	text-align: left;
+	position: relative;
+}
+#mainContent ul{
+	list-style-type: none;
+	clear:both;
+	position: relative;
+}
+#mainContent table.table{
+	border: 2px solid black;
+	border-radius: 4px;
+}
+#mainContent table th{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#mainContent td{
+	border-right: 1px solid black ;
+	border-bottom: 1px solid black;
+	padding-right: 20px;
+}
+#mainContent td.Kazakh{
+	background-color: #efffff;
+	font-weight: bold;
+} 
+div#sidebar{
+	left: 650px;
+	width: 250px;
+	padding: 0 10px;
+	margin: 0;
+	height: 500px;
+	background-color: turquoise;
+	border-left: solid turquoise 1px;
+	border-radius: 5px;
+	position: absolute;
+}
+
+#sidebar ul{
+	list-style-type: none;
+	margin-top: 5px;
+	padding-top: 5px;
+	clear:both;
+}
+#sidebar li {
+	margin-bottom: 10px;
+}
+#sidebar a{
+	margin-top: 5px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+}
+#sidebar h4{
+	text-align: center;
+}
+
+#sidebar a:visited{
+	color: #666;
+}
+#sidebar h5{
+	text-align:right;
+	float: right;
+	clear: left;
+}
+#sidebar a:hover{
+	color: yellow;
+}
+#sidebar a.current{
+	text-decoration: none;
+	font-size: 20px;
+}
+#sidebar img{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	float: left;
+	padding-right: 5px;
+}
+#sidebar ul iframe{
+	display:block;
+	margin: auto;
+}
+#mainContent img{
+	float:left;
+	clear:both;
+	left: 5px;
+}
+p{
+	float: left;
+	clear:both;
+	text-align: left;
+	margin-top: 5px;
+	
+}
+div#footer{
+	clear:both;
+	text-align: center;
+	width: 625px;
+	height: 50px;
+	background-color: turquoise;
+	border-radius: 5px;
+	width: 625px;
+	position: relative;
+	bottom: 15px;
+	}
+div#footer a{
+	text-decoration: none;
+	left: 20px;
+	clear: left;
+}
+#footer img{
+	clear: right;
+	margin-left: 5px;
+}
+ol#numberList{
+width: 35em;
+}
+ol#numberList li{
+float: left;
+width: 16em;
+}
+br{
+clear: left;
+}
+div#numbers{
+margin-bottom: 1em;
+}
+ a:hover{
+	font-size: 18px;
+}
